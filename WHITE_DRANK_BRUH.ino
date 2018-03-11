@@ -11,7 +11,7 @@ Serial.println("Start");
 
 void loop() {
   voltage = analogRead(A0) * (5.0/1023);
-  Serial.print(voltage);
+  Serial.println(voltage);
   // put your main code here, to run repeatedly:
-  delay(100);
+  delay(1000);
 }
