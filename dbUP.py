@@ -4,7 +4,7 @@ import serial
 
 ser = serial.Serial('/dev/ttyACM0', 9600)
 
-client = MongoClient(<<mongo URI>>")
+client = MongoClient(<<mongo URI>>)
 db = client.milkData
 serverStatusResult=db.command("serverStatus")
 pprint(serverStatusResult)
