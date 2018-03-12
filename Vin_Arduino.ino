@@ -21,6 +21,7 @@ void loop() {
  voltage2 = analogRead(A2) * (5.0/1023);
  voltage3 = analogRead(A3) * (5.0/1023); 
 
+  //no time to figure out c string concantenation, just sent it all seperatley
    Serial.print(voltage);
    Serial.print(" ");
    Serial.print(voltage1);
