@@ -1,3 +1,4 @@
+#script used to test serial
 import serial
 ser = serial.Serial('dev/ttyACM0', 9600)
 
